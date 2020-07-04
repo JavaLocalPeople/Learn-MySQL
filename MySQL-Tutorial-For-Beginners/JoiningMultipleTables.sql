@@ -27,7 +27,7 @@ USE sql_invoicing;
 SELECT 
 	p.date,
     p.invoice_id,
-    p.
+    p.amount,
 	c.name, 
     pm.name
 FROM payments p
